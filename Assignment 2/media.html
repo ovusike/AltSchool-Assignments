@@ -9,32 +9,39 @@
     <h1>About Me - Media Portfolio</h1>
 
     <!-- Picture Element with responsive images -->
-    <picture>
-        <img src="profile.jpg" alt="My Profile Picture" width="300" height="300">
-    </picture>
+    <section>
+        <h2>My Profile Picture</h2>
+        <picture>
+            <source media="(min-width: 1024px)" srcset="images/profile-large.jpg">
+            <source media="(min-width: 768px)" srcset="image/profile-medium.jpg">
+            <source media="(min-width: 320px)" srcset="images/profile-small.jpg">
+            <img src="./images/profile.jpg" alt="My Profile Picture" width="300" height="300">
+        </section>
+        </picture>
 
     <!-- Audio Section -->
     <section>
         <h2>My Introduction (Audio)</h2>
-        <audio src="my-audio-recording.jpeg" controls></audio></audio>
+        <audio src="./audio/my-audio-recording.jpg" controls></audio></audio>
     </section>
 
     <!-- Video Section -->
     <section>
         <h2>My Project Demo</h2>
-        <video src="project-demo.mp4" with="300" height="300" controls></video>
+        <video src="./video/project-demo.mp4" with="300" height="300" controls></video>
     </section>
 
     <!-- Link Section -->
     <section>
         <h2>My GitHub html Projects link</h2>
-        <a href="https://github.com/ovusike/Altschool-Intro-to-HTML" target="_blank">View my GitHub Profile</a>
+        <a href="https://google.com" target="_blank">View google home page</a>
     </section>
 
     <!-- Navigation -->
     <nav>
         <p><a href="media.html">This is media page</a></p>
         <p><a href="table.html">View table page</a></p>
+        <p><a href="index.html">Go back to Home Page</a></p>
     </nav>
 
 </body>
